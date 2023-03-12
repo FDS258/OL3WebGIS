@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+<div id="login">
+    <h1>登录</h1>
+    <input type="text" required="required" placeholder="用户名" id="user">
+    <input type="password" required="required" placeholder="密码" id="pa">
+    <button class="but" id="sign" type="submit">登录</button>
+</div>
+
+<script type="text/javascript">
+var user=document.getElementById("user").value;
+var password=document.getElementById("pa").value;
+document.getElementById("sign").onclick=function(){
+        window.location.href="index.htm";
+    }
+if(String(user)=="范达生"&&String(password)=="284510")
+{
+   
+}
+else
+{
+    // document.getElementById("sign").onclick=function(){
+    //     alert("wrong user or password!");
+    // }
+}
+</script>
+</body>
+</html>
